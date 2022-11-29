@@ -7,7 +7,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../img/bg3.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -57,52 +57,51 @@ height: 65%;
 left: 25%;
   position: absolute;
   top: 25%;
- border: 2px solid snow;
+ 
   transform: translateY(-50);
   text-align: center;
   color: #fff;
 }
+.papan h1{
+  font-size: 30px;
+  color: #000;
+}
 .posisi{
     width: 100%;
     height: 100%;
-    border: 2px solid springgreen;
-   margin-top: 25px;
-  position: absolute;
-  
- border: 2px solid snow;
-  transform: translateY(-50);
-  text-align: center;
+   
+    margin-top: 25px;
+    position: absolute;
+    
+    transform: translateY(-50);
+    text-align: center;
 }
 .card {
-    border: 2px solid whitesmoke;
     width: 25%;
     height: 35%;
-    padding: 10px;margin: 25px 75px;
+    padding: 8px;
+    margin: 25px 75px;
+    border-radius: 5px;
     display: inline-block;
-cursor: pointer;    
-}
-.card .keluarga{
-    background-image: url(../img/keluarga.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-.card .asmara{
-    background-image: url(../img/asmara.jpg);
-    background-position: center;
-    background-size: cover;
-  
-}
-.card .kawan{
-    background-image: url(../img/kawan.jpg);
-    background-position: center;
-    background-size: cover;
-
-}
-.card .kehidupan{
-    background-image: url(../img/kehidupan.jpg);
-    background-position: center;
-    background-size: cover;
+    cursor: pointer;    
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+     
     
 }
+.card:hover{
+  background: transparent;
+  border: #000 2px solid;
+  color: #000;
+  transition: .5s;
+
+}
+.card h3{
+ justify-content: center;
+ align-items: center;
+padding: 8px;
+   
+}
+
+
